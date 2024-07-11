@@ -9,11 +9,11 @@ menu:
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
-  我的:
-    音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+  # 我的:
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -105,10 +105,9 @@ algolia_search:
 # Settings: https://www.algolia.com/
 docsearch:
   enable: false
-  appId: # see email
-  apiKey: # see email
-  indexName: # see email
-  option:
+  appId: "QJC40SLCNQ"
+  apiKey: "03d159152c10666b5d65fcdd2f1ec169"
+  indexName: "AlgoliaForHexoIndex"
 
 # Local search
 local_search:
@@ -515,14 +514,14 @@ footer:
       #       link: /fcircle/
       #     - title: 留言板
       #       link: /comments/
-      # - title: 协议
-      #   links:
-      #     - title: 隐私协议
-      #       link: /privacy/
-      #     - title: Cookies
-      #       link: /cookies/
-      #     - title: 版权协议
-      #       link: /copyright/
+      - title: 协议
+        links:
+          - title: 隐私协议
+            link: /privacy/
+          - title: Cookies
+            link: /cookies/
+          - title: 版权协议
+            link: /copyright/
   footerBar:
     enable: true
     authorLink: /
